@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Efren</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Efren.jpeg" alt="">
+            </div>
+            <h1>EFREN REYES</h1>
+            <h2>Desarrollador web | Machine Learning</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/people/Efren-Reyes/100012166268507/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/dimasefren0/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/EfrenReyesD"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/efren-reyes-473866247/"><i class="fa-brands fa-linkedin-in"></i></a>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Efren Reyes.</span> Desarrollador web junior y estudiante de Ingeniería Mecatrónica Agrícola en la Universidad Autónoma Chapingo. <br> Me gusta  mucho la tecnología y desarrollo web. Me apaciona el tema de Inteligencia Artificial por lo que estudio de manera autodidacta Machine Learning | Deep Learning .</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                    
+                        <li>
+                            <strong>Teléfono</strong>
+                            747 109 6071
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            dimasefren3@gmail.com
+                        </li>
+                    
+                        <li>
+                            <strong>Dirección</strong>
+                            Texcoco de Mora, Edo. México, México.
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-linux"></i>
+                            <span>LINUX</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                        <p>Intermedio</p>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                        <p>Intermedio</p>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                        <p>Intermedio</p>
+                    </div>
+                    <div class="skill">
+                        <span>Github</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                        <p>Intermedio</p>
+                    </div>
+                    <div class="skill">
+                        <span>Git</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                            </div>
+                        </div>
+                        <p>Intermedio</p>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill profesional-skill">
+                        <span class="profesional-check">&#10004</span> <span>Comunicación</span>
+                    </div>
+                    <div class="skill profesional-skill">
+                        <span class="profesional-check">&#10004</span> <span>Trabajo en Equipo</span>
+                    </div>
+                    <div class="skill profesional-skill">
+                        <span class="profesional-check">&#10004</span> <span>Creatividad</span>
+                    </div>
+                    <div class="skill profesional-skill">
+                        <span class="profesional-check">&#10004</span> <span>Dedicación</span>
+                    </div>
+                    <div class="skill profesional-skill">
+                        <span class="profesional-check">&#10004</span> <span> Autodidacta</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>ONE</h4>
+                        <span class="casa">Programa Oracle Next Education</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>ONE es un programa de educación y empleabilidad con el objetivo social de formar personas en tecnología y conectarlas con el mercado laboral a través de a través de empresas colaboradoras.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingeniería Mecatrónica Agrícola</h4>
+                        <span class="casa">Universidad Autónoma Chapingo</span>
+                        <span class="fecha">2019 - 2023</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Certificaciones</h4>
+                        <span class="casa">Principiante en programación</span>
+                        <span class="fecha">2021</span>
+                        <a href="https://app.aluracursos.com/user/efrenreyes644/degree-programacion-primeros-pasos-grupo3-one-15466/certificate">Ver certificado</a>
+                        <span class="casa">Microsoft AZ-900</span>
+                        <span class="fecha">2021</span>
+                        <a href="https://www.certiport.com/Portal/Pages/PrintTranscriptInfo.aspx?action=Cert&id=414&cvid=o3CIv/Hm15x/GTE85ZZHiA==">Ver certificado</a>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencias</h3>
+                    <div class="item der">
+                        <h4>Proyectos personales Front End</h4>
+                        <span class="casa">Trabajos realizados junto con el programa ONE</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>&#9733 Se realizó un encriptador de mensajes con las tecnologías HTML, CSS y JavaScript <br>
+                            &#9733 Otro de los proyectos realizados fue el Juego del Ahorcado</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Projectos Escolares Ing.</h4>
+                        <span class="casa">Universidad</span>
+                        <span class="fecha">Jun 2022</span>
+                        <p>&#9733 Prototipo de una mano robótica controlada con visión por computador imitando los movimientos de una mano real. <br>
+                            &#9733 Clasificador de objetos de colores con visión por computador</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Proyecto de Servicio Social</h4>
+                        <span class="casa">Universidad</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>&#9733 Monitoreo de sensores de Humedad y Temperatura en una página web utilizando la comunicación GSM.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/juegoAhorcado.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Juego del Ahorcado</h3>
+                        <p>Front End</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/encriptador.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Encriptador de texto</h3>
+                        <p>Front End</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form id="form" action="">
+                    <input name="name" type="text" placeholder="Tú Nombre">
+                    <input name="num-tel" type="text" placeholder="Número telefónico">
+                    <input name="gmail" type="text" placeholder="Dirección de correo">
+                    <input name="tema" type="text" placeholder="Tema">
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button type="submit">
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </form>
+                <a href="mailto:dimasefren@gmail.com" id="gmail-submit">mail</a>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Texcoco de Mora, Edo. México, México.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 747 109 6071 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: dimasefren3@gmail.com 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/people/Efren-Reyes/100012166268507/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/dimasefren0/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/EfrenReyesD"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/efren-reyes-473866247/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
